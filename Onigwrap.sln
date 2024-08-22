@@ -5,19 +5,18 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4842A8EE-B57A-48F8-8E18-E3DCB076B597}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onigwrap", "src\Onigwrap\Onigwrap.csproj", "{2C5A0363-CBA0-4C66-ABEB-9DBABCCE1E80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onigwrap", "src\Onigwrap\Onigwrap.csproj", "{2C5A0363-CBA0-4C66-ABEB-9DBABCCE1E80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onigwrap.Tests", "src\Onigwrap.Tests\Onigwrap.Tests.csproj", "{9B3CCDCF-0DD0-450A-A092-3882E180B024}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onigwrap.Tests", "src\Onigwrap.Tests\Onigwrap.Tests.csproj", "{9B3CCDCF-0DD0-450A-A092-3882E180B024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onigwrap.Wasm.Example", "src\Onigwrap.Wasm.Example\Onigwrap.Wasm.Example.csproj", "{B31F3DE2-FC19-49FC-BBF2-75183DD3BE0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onigwrap.Wasm.Example", "src\Onigwrap.Wasm.Example\Onigwrap.Wasm.Example.csproj", "{B31F3DE2-FC19-49FC-BBF2-75183DD3BE0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onigwrap.Benchmarks", "src\Onigwrap.Benchmarks\Onigwrap.Benchmarks.csproj", "{9C4CE3AE-69FC-4055-A374-7DE6C51BAA6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2C5A0363-CBA0-4C66-ABEB-9DBABCCE1E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -32,10 +31,18 @@ Global
 		{B31F3DE2-FC19-49FC-BBF2-75183DD3BE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B31F3DE2-FC19-49FC-BBF2-75183DD3BE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B31F3DE2-FC19-49FC-BBF2-75183DD3BE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4CE3AE-69FC-4055-A374-7DE6C51BAA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4CE3AE-69FC-4055-A374-7DE6C51BAA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4CE3AE-69FC-4055-A374-7DE6C51BAA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4CE3AE-69FC-4055-A374-7DE6C51BAA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2C5A0363-CBA0-4C66-ABEB-9DBABCCE1E80} = {4842A8EE-B57A-48F8-8E18-E3DCB076B597}
 		{9B3CCDCF-0DD0-450A-A092-3882E180B024} = {4842A8EE-B57A-48F8-8E18-E3DCB076B597}
 		{B31F3DE2-FC19-49FC-BBF2-75183DD3BE0F} = {4842A8EE-B57A-48F8-8E18-E3DCB076B597}
+		{9C4CE3AE-69FC-4055-A374-7DE6C51BAA6A} = {4842A8EE-B57A-48F8-8E18-E3DCB076B597}
 	EndGlobalSection
 EndGlobal
